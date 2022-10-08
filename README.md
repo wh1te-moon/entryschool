@@ -1,1 +1,1 @@
-[点击这里](https://ckdkl.github.io/inschool/index.html)
+[点击这里](https://wh1te-moon.github.io/inschool/index.html)
