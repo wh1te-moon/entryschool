@@ -86,22 +86,24 @@
         // set personal info and else
         window.onload = function () {
             var dataFromCookie = getSavedData()
-            var name = '徐皓铭'
-            var id = '2021101363'
-            var institute = '信息科学技术学院'
+            var name = ''
+            var id = ''
+            var institute = ''
 
-            if (dataFromCookie == false) {
-                name = prompt("请输入姓名", " ")
-                id = prompt("请输入学号", " ")
-                institute = prompt("请输入所在学院", " ")
+//             if (dataFromCookie == false) {
+//                 name = prompt("请输入姓名", " ")
+//                 id = prompt("请输入学号", " ")
+//                 institute = prompt("请输入所在学院", " ")
 
-                setCookie(name, id, institute)
-            } else {
-                name = dataFromCookie[0]
-                id = dataFromCookie[1]
-                institute = dataFromCookie[2]
-            }
-
+//                 setCookie(name, id, institute)
+//             } else {
+//                 name = dataFromCookie[0]
+//                 id = dataFromCookie[1]
+//                 institute = dataFromCookie[2]
+//             }
+            name = prompt("请输入姓名", " ")
+            id = prompt("请输入学号", " ")
+            institute = prompt("请输入所在学院", " ")
             var nameHolder = document.getElementById("name")
             var idHolder = document.getElementById('id')
             var instituteHolder = document.getElementById('institute')
